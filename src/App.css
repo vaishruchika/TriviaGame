@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://www.shutterstock.com/image-vector/quiz-frame-neon-sign-vector-600w-2191197327.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 10% auto;
+    color: hotpink;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+button, input{
+    padding: 5px;
+    border: 2px solid hotpink;
+    margin: 5px;
+    color: deepskyblue;
+    font-weight: bold;
+    background: hotpink;
+    box-shadow: hotpink;
+
+}
+input:disabled, button:disabled{
+    background: lightgrey;
+}
+
+p{
+    font-weight: bold;
+    size: 30px;
+}
+
